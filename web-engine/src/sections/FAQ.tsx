@@ -33,7 +33,7 @@ const faqs = [
   }
 ];
 
-const FAQItem = ({ faq, index, isOpen, onClick }: { faq: typeof faqs[0]; index: number; isOpen: boolean; onClick: () => void }) => {
+const FAQItem = ({ faq, index, isOpen, onClick }: { faq: typeof faqs[0]; index: number; isOpen: boolean; onClick: () => void; key?: any }) => {
   return (
     <div 
       className={`group rounded-2xl border transition-all duration-300 ${

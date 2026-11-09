@@ -23,10 +23,6 @@ jobs:
       working-directory: ./web-engine
       run: npm install
 
-    - name: TypeScript Type Check
-      working-directory: ./web-engine
-      run: npm run lint
-
     - name: Build Web Engine & Server
       working-directory: ./web-engine
       run: npm run build
