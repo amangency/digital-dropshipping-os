@@ -1,6 +1,7 @@
 # ⚡ Digital Dropshipping Operating System (OS)
 ### *The Complete End-to-End Operating System for Scaling Digital Products & Digital Dropshipping in 2026*
 
+[![CI](https://github.com/amangency/digital-dropshipping-os/actions/workflows/ci.yml/badge.svg)](https://github.com/amangency/digital-dropshipping-os/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React 19](https://img.shields.io/badge/React-19.0-blue.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6.svg)](https://www.typescriptlang.org/)
