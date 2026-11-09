@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background Circle (Brand Color) -->
+  <circle cx="256" cy="256" r="240" fill="#dfab43" />
+  
+  <!-- Tiffin Box Handle -->
+  <path d="M 196 180 C 196 120, 316 120, 316 180" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round" />
+  
+  <!-- Tiffin Box Lid -->
+  <rect x="126" y="180" width="260" height="45" rx="15" fill="#ffffff" />
+  
+  <!-- Tiffin Box Body -->
+  <rect x="146" y="215" width="220" height="140" rx="25" fill="#ffffff" />
+  
+  <!-- Healthy Green Leaf Accent -->
+  <path d="M 256 295 C 230 295, 230 265, 256 265 C 282 265, 282 295, 256 295 Z" fill="#22c55e" />
+</svg>

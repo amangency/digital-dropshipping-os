@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Ultimate Kids Tiffin Bundle | Mini Wellness</title>
+    <meta name="description" content="45+ Healthy Indian Lunchbox Recipes, Immunity-Boosting Rasoi Remedies, and 15-Min Morning Hacks for Busy Moms." />
+    <meta name="theme-color" content="#15212E" />
+
+    <!-- ⚡ Performance: DNS Prefetch & Preconnects (unblock critical path) -->
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+    <link rel="preconnect" href="https://connect.facebook.net" crossorigin />
+
+    <!-- ⚡ LCP Image Preload (Hero bundle image — highest priority) -->
+    <link rel="preload" as="image" href="/images/tiffin-bundle.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- 📊 SEO: Structured Data for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "The Ultimate Kids Tiffin Bundle",
+      "description": "45+ Healthy Indian Lunchbox Recipes, Immunity-Boosting Rasoi Remedies, and 15-Min Morning Hacks for Busy Moms.",
+      "brand": { "@type": "Brand", "name": "Mini Wellness" },
+      "offers": {
+        "@type": "Offer",
+        "price": "299",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://miniwellness.in/"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "2143"
+      }
+    }
+    </script>
+
+    <!-- Meta Pixel Deferred -->
+  </head>
+  <body>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=%VITE_FB_PIXEL_ID%&ev=PageView&noscript=1" />
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Meta Pixel Code (Deferred) -->
+    <script>
+      const initFB = () => {
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        const pixelId = "%VITE_FB_PIXEL_ID%";
+        if (pixelId && pixelId !== "%" + "VITE_FB_PIXEL_ID" + "%") {
+          fbq('init', pixelId);
+          fbq('track', 'PageView');
+        }
+      };
+
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(initFB, { timeout: 2000 });
+      } else {
+        setTimeout(initFB, 1000);
+      }
+    </script>
+    <!-- End Meta Pixel Code -->
+  </body>
+</html>
+

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /checkout
+Disallow: /upsell
+Disallow: /thank-you
+
+Sitemap: https://miniwellness.in/sitemap.xml

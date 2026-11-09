@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Large files not needed for deployment
+eng.traineddata
+test.png
+backend-only.tar.gz
+bun.lock
+
+# Dev utility scripts (not needed for production)
+download_images.cjs
+download_images.sh
+replace_images.sh
+wait_for_build.sh
+ocr.cjs
+patch.cjs

@@ -1,0 +1,88 @@
+# ==============================================================================
+# SECRETS & SENSITIVE CREDENTIALS (NEVER COMMIT)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# Private Keys & Certificates
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa*
+*.pfx
+*.p12
+
+# ==============================================================================
+# DEPENDENCIES & PACKAGE MANAGERS
+# ==============================================================================
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ==============================================================================
+# PRODUCTION BUILDS & COMPILER OUTPUT
+# ==============================================================================
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+*.tsbuildinfo
+
+# ==============================================================================
+# LOGS & DIAGNOSTICS
+# ==============================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================================================================
+# RUNTIME DATA & CACHE
+# ==============================================================================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tmp
+*.temp
+
+# Large AI/ML models / binaries
+*.traineddata
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Digital Product Raw PDFs (Keep private products off public repos)
+*.pdf
+
+# ==============================================================================
+# OS & EDITOR METADATA
+# ==============================================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
